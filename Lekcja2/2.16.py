@@ -12,6 +12,5 @@ line = 'Lorem ipsum dolor sit amet GvR, ' \
     'Maecenas auctor mollis mi eget ultrices.\n' \
     'Quisque viverra pulvinar neque,\t \
     nec fringilla risus semper eget.'
-    
 # GvR dodany na koncu pierwszej lini zmiennej line
 print('Line po zmiane:\n',line.replace('GvR', 'Guido van Rossum'))

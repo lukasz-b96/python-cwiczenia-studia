@@ -12,5 +12,6 @@ line = 'Lorem ipsum dolor sit amet, ' \
     'Maecenas auctor mollis mi eget ultrices.\n' \
     'Quisque viverra pulvinar neque,\t \
     nec fringilla risus semper eget.'
+    
 pojedyncze = [len(wyraz) for wyraz in line.split()]
 print('Suma:', sum(pojedyncze))
