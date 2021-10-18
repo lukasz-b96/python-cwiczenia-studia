@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+
 line = 'Lorem ipsum dolor sit amet, ' \
     'consectetur adipiscing elit.\n' \
     'Aliquam accumsan sem eu ante facilisis posuere.\n' \
@@ -10,4 +13,4 @@ line = 'Lorem ipsum dolor sit amet, ' \
     'Quisque viverra pulvinar neque,\t \
     nec fringilla risus semper eget.'
     
-print('Liczba wyrazów w line:', len(line.split()))
+print('Liczba wyrazow w line:', len(line.split()))

@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*- 
+
 line = 'Lorem ipsum dolor sit amet GvR, ' \
     'consectetur adipiscing elit.\n' \
     'Aliquam accumsan sem eu ante facilisis posuere.\n' \
