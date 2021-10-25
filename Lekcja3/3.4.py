@@ -5,7 +5,7 @@ while(True):
     try:
         data = input()
         if (data == 'stop'):
-            exit()
+            break
         data = float(data)
     except ValueError:
 
