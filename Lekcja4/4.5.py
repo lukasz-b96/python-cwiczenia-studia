@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 
 def odwracanie_iteracyjne(lista):
     # najchetniej bym uzyl lista[::-1]
@@ -16,8 +16,7 @@ def odwracanie_iteracyjne(lista):
 def odwracanie_rekurencyjne(lista):
     if not lista:
         return lista
-    return lista[-1:] + odwracanie_rekurencyjne(lista[:-1]) 
-    
+    return lista[-1:] + odwracanie_rekurencyjne(lista[:-1])
 
 
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]  # parzyste
@@ -25,7 +24,6 @@ lista2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]  # nieparzyste
 
 odwracanie_iteracyjne(lista)
 odwracanie_iteracyjne(lista2)
-
 
 
 print(odwracanie_rekurencyjne(lista))

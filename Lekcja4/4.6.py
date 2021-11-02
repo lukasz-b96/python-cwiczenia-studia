@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 
 def sum_seq(sequence):
     suma = 0
@@ -11,9 +11,8 @@ def sum_seq(sequence):
     return suma
 
 
-lista = [1, 2, [], [3], [4, 5], ((),6), (7), (8, 9), ((10), 11, 12, ((13), 14))]
+lista = [1, 2, [], [3], [4, 5],
+         ((), 6), (7), (8, 9), ((10), 11, 12, ((13), 14))]
 
 
-
-    
-print(sum_seq(lista)) 
+print(sum_seq(lista))
