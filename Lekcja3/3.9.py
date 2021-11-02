@@ -13,3 +13,4 @@ for el in arr:
         exit()
 print(output)
         
+print(list(map(sum,arr)))

@@ -14,3 +14,7 @@ print('random letters 2: ', list(random2))
 
 print('a)', list(random1.intersection(random2)))
 print('b)', list(random1.union(random2)))
+
+
+print(list(random1 & random2))
+print(list(random1 | random2))

@@ -23,9 +23,20 @@ dict3['D'] = 500
 dict3['CM'] = 900
 dict3['M'] = 1000
 
+# 4
+D = dict([("I",1), ("V",5)])
+
+# 5
+keys = ["I", "V", "X"]
+vals = [1, 5, 10]
+zipper = dict(zip(keys,vals))
+
+
 print(dict1)
 print(dict2)
 print(dict3)
+print(D)
+print(zipper)
 
 def roman2int(s):
     i = 0
