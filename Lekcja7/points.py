@@ -3,7 +3,6 @@
 
 from points import *
 import unittest
-import math
 
 
 class Point:
